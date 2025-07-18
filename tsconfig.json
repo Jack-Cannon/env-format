@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs", // This is crucial for Node.js compatibility
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist" // Optional: output compiled JS to a 'dist' folder
+    },
+    "include": [
+        "AWS_to_node_env.ts"
+    ]
+}
